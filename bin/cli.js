@@ -1,6 +1,2 @@
 #!/usr/bin/env node
-require("ts-node").register({
-  project: require("path").join(__dirname, "../tsconfig.json"),
-  transpileOnly: true,
-});
-require("../src/index.ts");
+require("../dist/index.js");
