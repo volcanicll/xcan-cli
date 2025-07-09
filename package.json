@@ -1,0 +1,27 @@
+{
+  "name": "xcan-cli",
+  "version": "1.0.0",
+  "main": "index.js",
+  "bin": {
+    "can-x": "bin/cli.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "flybycan",
+  "license": "ISC",
+  "description": "A CLI tool for creating projects and generating files from templates.",
+  "dependencies": {
+    "@types/inquirer": "^9.0.8",
+    "@types/node": "^24.0.10",
+    "@types/shelljs": "^0.8.17",
+    "chalk": "^4.1.2",
+    "commander": "^14.0.0",
+    "inquirer": "^8.2.6",
+    "ora": "^5.4.1",
+    "shelljs": "^0.10.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3"
+  }
+}
