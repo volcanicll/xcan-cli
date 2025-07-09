@@ -1,14 +1,27 @@
 {
   "name": "xcan-cli",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "dist/index.js",
   "bin": {
     "can-x": "bin/cli.js"
   },
+  "files": [
+    "dist",
+    "bin",
+    "README.md"
+  ],
   "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
+  "keywords": [
+    "cli",
+    "generator",
+    "template",
+    "project-generator",
+    "scaffolding"
+  ],
   "author": "flybycan",
   "license": "ISC",
   "description": "A CLI tool for creating projects and generating files from templates.",
